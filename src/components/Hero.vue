@@ -44,8 +44,8 @@ import Contact from "./Contact.vue";
 const { isFetching, error, data } = await useFetch(
   "https://randomuser.me/api/?results=100"
 );
-const d = JSON.parse(data._value);
-const contacts = d.results;
+const dat = JSON.parse(data._value);
+const contacts = dat.results;
 
 export default {
   data() {
@@ -55,7 +55,7 @@ export default {
     };
   },
   mounted() {
-    this.contacts = d.results;
+    this.contacts = dat.results;
     this.size = contacts.length;
   },
   components: {
