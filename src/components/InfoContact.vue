@@ -18,7 +18,7 @@
 
         <v-card class="mt-5" height="300">
           <v-row
-            ><v-col md="6" lg="3">
+            ><v-col md="6" lg="3" class="ml-3">
               <v-img
                 class="text-white mt-10"
                 height="200"
@@ -27,7 +27,7 @@
                 cover
               ></v-img>
             </v-col>
-            <v-col md="6" lg="9">
+            <v-col md="6" lg="8">
               <v-card-title col="12"
                 >{{ $route.query.first }} {{ $route.query.last }}
               </v-card-title>

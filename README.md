@@ -1,4 +1,4 @@
-# default
+Thank you Sig Service for giving me the oportunity to work on something like this
 
 ## Project setup
 
@@ -47,7 +47,3 @@ pnpm build
 # bun
 bun run build
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
