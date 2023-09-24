@@ -26,6 +26,11 @@
           :name="contact.name"
           :email="contact.email"
           :picture="contact.picture"
+          :cell="contact.cell"
+          :dob="contact.dob"
+          :location="contact.location"
+          :phone="contact.phone"
+          :socialnumber="contact.id.value"
         />
       </v-col>
     </v-row>
@@ -41,8 +46,6 @@ const { isFetching, error, data } = await useFetch(
 );
 const d = JSON.parse(data._value);
 const contacts = d.results;
-
-const t = "hello";
 
 export default {
   data() {
